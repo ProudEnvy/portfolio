@@ -10,7 +10,7 @@ module.exports = {
       },
       colors: {
         transparent: "transparent",
-        bgColor: "#1f1f38",
+        bgColor: "#1a1a1a",
         bgVariant: "#2c2c6c",
         primary: "#4db5ff",
         primaryVariant: "#4db5ff66",

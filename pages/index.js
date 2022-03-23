@@ -13,13 +13,13 @@ import Services from '../components/Services'
 
 export default function Home() {
   return (
-    <div className="flex   bg-bgColor  text-white leading-7 justify-center">
+    <div className="flex justify-center leading-7 text-gray-200">
       <div className="flex md:w-[80%] sm:w-[90%] lg:w-[75%] flex-col items-center justify-center">
         <Header />
         <Navigation />
+        <Services />
         <About />
         <Experience />
-        <Services />
         <Portfolio />
         <Testimonials />
         <Contact />
