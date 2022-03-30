@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className="fixed z-50 px-5 py-2 bg-white border border-transparent border-gray-200 rounded-2xl bottom-14 bg-blackbg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10">
+    <div className="fixed z-50 px-5 py-2 transition-opacity duration-200 bg-white border border-transparent border-gray-200 rounded-2xl bottom-14 bg-blackbg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 opacity-10 hover:opacity-80">
       <div className="flex gap-3">
         <Link href="#header">
           <a>
-            <div className="p-2 text-white border-2 rounded-md bg-bgVariant">
+            <div className="p-2 text-white transition-all duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -28,7 +28,7 @@ const Navigation = () => {
         </Link>
         <Link href="#about">
           <a>
-            <div className="p-2 text-white border-2 rounded-md bg-bgVariant">
+            <div className="p-2 text-white duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -49,27 +49,35 @@ const Navigation = () => {
         </Link>
         <Link href="#services">
           <a>
-            <div className="px-3 border-2 rounded-md bg-bgVariant">S</div>
+            <div className="px-3 duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
+              S
+            </div>
           </a>
         </Link>
         <Link href="#portfolio">
           <a>
-            <div className="px-3 border-2 rounded-md bg-bgVariant">P</div>
+            <div className="px-3 duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
+              P
+            </div>
           </a>
         </Link>
         <Link href="#experience">
           <a>
-            <div className="px-3 border-2 rounded-md bg-bgVariant">E </div>
+            <div className="px-3 duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
+              E{" "}
+            </div>
           </a>
         </Link>
-        <Link href="#testimonials">
+        <Link href="#testimonials ">
           <a href="">
-            <div className="px-3 border-2 rounded-md bg-bgVariant">T</div>
+            <div className="px-3 duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
+              T
+            </div>
           </a>
         </Link>
         <Link href="#contact">
           <a href="">
-            <div className="p-2 border-2 rounded-md bg-bgVariant">
+            <div className="p-2 duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -88,7 +96,9 @@ const Navigation = () => {
         </Link>
         <Link href="#footer">
           <a href="">
-            <div className="px-3 border-2 rounded-md bg-bgVariant">F</div>
+            <div className="px-3 py-1 duration-300 border-2 rounded-md bg-bgVariant hover:p-3 hover:rounded-full hover:-m-1 hover:-translate-y-3">
+              F
+            </div>
           </a>
         </Link>{" "}
       </div>
