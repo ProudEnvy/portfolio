@@ -15,16 +15,18 @@ import Image from "next/image";
 const Experience = () => {
   return (
     <div id="experience" className="mt-32">
-      <div className="pb-24 text-2xl text-center underline md:text-4xl underline-offset-2">Erfahrung mit anderen Techniken</div>
-      <div className="flex flex-wrap">
-        <div className="w-24 h-24">
+      <div className="pb-24 text-2xl text-center underline md:text-4xl underline-offset-2">
+        Erfahrung mit anderen Techniken
+      </div>
+      <div className="flex flex-wrap justify-center">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={dockerIcon.src}
             width={dockerIcon.width}
             height={dockerIcon.height}
           />
         </div>
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={firebaseIcon.src}
             width={firebaseIcon.width}
@@ -32,7 +34,7 @@ const Experience = () => {
           />
         </div>
 
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={graphqlIcon.src}
             width={graphqlIcon.width}
@@ -40,7 +42,7 @@ const Experience = () => {
           />
         </div>
 
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={javascriptIcon.src}
             width={javascriptIcon.width}
@@ -48,7 +50,7 @@ const Experience = () => {
           />
         </div>
 
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={pythonIcon.src}
             width={pythonIcon.width}
@@ -56,7 +58,7 @@ const Experience = () => {
           />
         </div>
 
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={reactjsIcon.src}
             width={reactjsIcon.width}
@@ -64,7 +66,7 @@ const Experience = () => {
           />
         </div>
 
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={tailwindcssIcon.src}
             width={tailwindcssIcon.width}
@@ -72,7 +74,7 @@ const Experience = () => {
           />
         </div>
 
-        <div className="w-24 h-24">
+        <div className="flex items-center justify-center w-24 h-24">
           <Image
             src={typescriptlangIcon.src}
             width={typescriptlangIcon.width}
