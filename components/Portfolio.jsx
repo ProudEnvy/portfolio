@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div id="portfolio" className="mt-32">
       <div>Portfolio</div>
       <div>
-        <Project/>
+        <Project data={'no data'}/>
       </div>
     </div>
   );
