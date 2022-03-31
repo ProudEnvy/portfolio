@@ -14,6 +14,7 @@ const DeployCard = ({ data }) => {
                 src={logo.src}
                 height={logo.height}
                 width={logo.width}
+                alt={logo.src}
               />
             ))}
           </div>

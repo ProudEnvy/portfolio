@@ -24,6 +24,7 @@ const Experience = () => {
             src={dockerIcon.src}
             width={dockerIcon.width}
             height={dockerIcon.height}
+            alt={dockerIcon.src}
           />
         </div>
         <div className="flex items-center justify-center w-24 h-24">
@@ -31,6 +32,7 @@ const Experience = () => {
             src={firebaseIcon.src}
             width={firebaseIcon.width}
             height={firebaseIcon.height}
+            alt={firebaseIcon.src}
           />
         </div>
 
@@ -39,6 +41,7 @@ const Experience = () => {
             src={graphqlIcon.src}
             width={graphqlIcon.width}
             height={graphqlIcon.height}
+            alt={graphqlIcon.src}
           />
         </div>
 
@@ -47,6 +50,7 @@ const Experience = () => {
             src={javascriptIcon.src}
             width={javascriptIcon.width}
             height={javascriptIcon.height}
+            alt={javascriptIcon.src}
           />
         </div>
 
@@ -55,6 +59,7 @@ const Experience = () => {
             src={pythonIcon.src}
             width={pythonIcon.width}
             height={pythonIcon.height}
+            alt={pythonIcon.src}
           />
         </div>
 
@@ -63,6 +68,7 @@ const Experience = () => {
             src={reactjsIcon.src}
             width={reactjsIcon.width}
             height={reactjsIcon.height}
+            alt={reactjsIcon.src}
           />
         </div>
 
@@ -71,6 +77,7 @@ const Experience = () => {
             src={tailwindcssIcon.src}
             width={tailwindcssIcon.width}
             height={tailwindcssIcon.height}
+            alt={tailwindcssIcon.src}
           />
         </div>
 
@@ -79,6 +86,7 @@ const Experience = () => {
             src={typescriptlangIcon.src}
             width={typescriptlangIcon.width}
             height={typescriptlangIcon.height}
+            alt={typescriptlangIcon.src}
           />
         </div>
       </div>

@@ -11,6 +11,7 @@ const Card = ({ data }) => {
               src={data.logo.src}
               height={data.logo.height}
               width={data.logo.width}
+              alt={data.logo.src}
             />
           ) : (<div></div>)}
       </div>

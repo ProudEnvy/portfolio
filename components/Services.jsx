@@ -9,6 +9,7 @@ import googleLogo from '../images/google.svg'
 import netlifyLogo from "../images/netlify-icon.svg";
 import microsoftLogo from "../images/microsoft-icon.svg";
 import linuxLogo from '../images/linux-icon.svg'
+import lighthouse from "../images/google-lighthouse.svg";
 
 
 
@@ -18,6 +19,7 @@ const Services = () => {
   const backendServiceText = new Map();
   const hostingServiceText = new Map();
   const hostingAppText = new Map();
+  const websiteOptimizationText = new Map();
 
   mobileDevServiceText["title"] = "Mobile App Entwicklung";
   mobileDevServiceText["logo"] = flutterLogo;
@@ -52,6 +54,13 @@ const Services = () => {
   hostingAppText["description"] = "Hochladen und Einrichtung der App Seite im Google Play und/oder Apple App Store";
   hostingAppText["popular"] = "";
 
+  websiteOptimizationText["title"] = "Google Lighthouse";
+  websiteOptimizationText["logo"] = lighthouse;
+  websiteOptimizationText["popular"] = "Garantierter Lighthouse Score über 90 für Ihre Seite";
+  websiteOptimizationText["more"] =
+    "https://www.searchmetrics.com/de/glossar/google-lighthouse/";
+  websiteOptimizationText["description"] = "Jede erstellte Seite wird nach dem offiziellen Google Lighthouse optimiert. Dieser beschreibt die Leistung und Suchmaschinenoptimiertung einer Seite. Desto besser dieser Wert, desto besser ist die Suchmaschinenplatzierung.";
+
 
   return (
     <div id="services" className="flex flex-col items-center mt-32">
@@ -73,6 +82,14 @@ const Services = () => {
         <div className="flex flex-col transition-all duration-400 xl:gap-20 lg:flex-row lg:gap-8">
           <DeployCard data={hostingServiceText} />
           <DeployCard data={hostingAppText} />
+        </div>
+      </div>
+      <div className="flex flex-col">
+        <div className="pt-24 pb-4 text-2xl text-center">
+          Website Optimierungen:
+        </div>
+        <div className="flex flex-col transition-all duration-400 xl:gap-20 lg:flex-row lg:gap-8">
+          <Card data={websiteOptimizationText} />
         </div>
       </div>
     </div>
