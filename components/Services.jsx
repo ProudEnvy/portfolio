@@ -65,7 +65,7 @@ const Services = () => {
   return (
     <div id="services" className="flex flex-col items-center mt-32">
       <div className="py-24 text-4xl underline underline-offset-2">
-        Was ich anbiete:
+        Services:
       </div>
       <div className="flex flex-col">
         <div className="pb-4 text-2xl text-center">Softwarelösungen:</div>

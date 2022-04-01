@@ -106,7 +106,7 @@ const Footer = () => {
           <span>© 2022 Copyright: </span>
           <a
             className="font-semibold text-gray-600"
-            href="https://tailwind-elements.com/"
+            href=""
           >
             Marko Kezic
           </a>
